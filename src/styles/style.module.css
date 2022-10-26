@@ -1,0 +1,319 @@
+.menu {
+    background: #6B3CC9 !important;
+}
+
+.link {
+    color: #ffffff !important;
+}
+.banner {
+    width: 100%;
+    height: 763px;
+    position: relative;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: 25% 75%;
+    
+}
+.bannerContent {
+    position: absolute;
+    width: 630px;
+    left: 80px;
+    bottom: 40px;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF;
+    padding: 24px 40px 32px;
+}
+.bannerContentHeading {
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 12px 20px;
+    background: #F28D35;
+    border: 1px solid #F28D35;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.serviceContent {
+    padding-left: 100px;
+    width: 60%;
+}
+.serviceImage {
+    width: 414px;
+    height: 414px;
+}
+.serviceTitle {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #6B3CC9;
+    letter-spacing: 0.4px;
+}
+.serviceDescription {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutContainer {
+    position: relative;
+    margin-top: 250px;
+    margin-left: 452px;
+}
+.about {
+    width: 820.5px;
+    height: 360px;
+    margin: auto;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: #FFFFFF;
+}
+.aboutTitle {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #6B3CC9;
+    letter-spacing: 0.4px;
+}
+.aboutEllipse {
+    position: absolute;
+    top: -81px;
+    left: -167px;
+}
+.aboutUnderline {
+    width: 40%;
+    border: 3px solid #F28D35;
+    background: #F28D35;
+    margin-bottom: 30px;
+}
+.aboutImage {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25%
+}
+.aboutContent {
+    position: relative;
+    width: 60%;
+    margin-left: 30%;
+    background: #ffffff;
+}
+.footer {
+    width: 100%;
+    background: #6B3CC9;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 300px;
+    padding: 40px 80px 20px;
+}
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+.footerLogo {
+    width: 30%;
+}
+.footerTextContainer {
+    width: '40%';
+    display: flex;
+}
+.footerText {
+    width: 50%;
+}
+.footerTitle {
+    font-size: 21px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.footerPara {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footerTncLine {
+    width: 60%;
+    border: 1px solid #FFF;
+    margin: auto;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+    .aboutEllipse {
+        left: -213px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .aboutEllipse {
+        left: -296px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bannerContent {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+    .footerContent {
+        flex-direction: column;
+    }
+    .footerLogo {
+        width: 80%;
+    }    
+    .footerTextContainer {
+        width: 100%;
+        display: flex;
+    }
+    .btn {
+        padding: 8px 10px;
+    }
+    .service {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .serviceContent {
+        padding-left: 100px;
+        width: 60%;
+    }
+    .serviceImage {
+        width: 250px;
+        height: 250px;
+    }
+    .aboutContainer {
+        position: relative;
+        margin-top: 250px;
+        margin-left: 150px;
+    }
+    .about {
+        width: 569.758px;
+        height: 250px;
+    }
+    .aboutEllipse {
+        top: -75px;
+        left: -211px;
+        width: 400px;
+        height: 400px;
+    }
+    .aboutImage {
+        width: 250px;
+        height: 250px;
+    }
+    .aboutContent {
+        width: 77%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .service {
+        display: block;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .serviceContent {
+        padding-left: 0;
+        width: 90%;
+    }
+    .serviceImage {
+        width: 250px;
+        height: 250px;
+    }
+    .aboutContainer {
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .about {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .aboutEllipse {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 300px;
+        top: 147px;
+    }
+    .aboutImage {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: relative;
+        left: 0;
+        top: -100px;
+    }
+    .aboutContent {
+        position: relative;
+        width: 90%;
+        margin: auto;
+        background: #ffffff;
+    }
+    .aboutTitle {
+        margin-top: -90px;
+    }
+    .aboutUnderline {
+        margin-bottom: 30px;
+        margin: auto;
+    }
+    .footer {
+        width: 100%;
+        background: #6B3CC9;
+        padding: 20px;
+        margin-top: 300px;
+        text-align: center;
+    }
+    .footerContent {
+        display: block;
+    }
+    .footerLogo {
+        width: 100%;
+    }
+    .footerTextContainer {
+        width: '100%';
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .footerText {
+        width: 40%;
+    }
+    .footerTitle {
+        font-size: 21px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .footerPara {
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    .footerTncLine {
+        width: 60%;
+        border: 1px solid #FFF;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+}
