@@ -6,9 +6,9 @@ import styles from '../styles/style.module.css'
 const About = () => {
     return (
         <div className={styles.aboutContainer}>
-            <img src={ellipse} className={styles.aboutEllipse} />
+            <img src={ellipse} className={styles.aboutEllipse} alt="ellipse" />
             <div className={styles.about}>
-                <img src={about} className={styles.aboutImage} />
+                <img src={about} className={styles.aboutImage} alt="about us image" />
                 <div className={styles.aboutContent}>
                     <h4 className={styles.aboutTitle}>ABOUT US</h4>
                     <div className={styles.aboutUnderline} ></div>

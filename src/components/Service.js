@@ -15,7 +15,7 @@ const Service = ({service}) => {
 
     return (
         <div className={styles.service} style={{ flexDirection: reverse ? "row-reverse" : "row" }}>
-            {imageUrl && <img src={imageUrl} alt="" className={styles.serviceImage} />}
+            {imageUrl && <img src={imageUrl} alt="service" className={styles.serviceImage}  />}
             <div className={styles.serviceContent}>
                 <h4 className={styles.serviceTitle}>{title}</h4>
                 <p className={styles.serviceDescription}>{description}</p>

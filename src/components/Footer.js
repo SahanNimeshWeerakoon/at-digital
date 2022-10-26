@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.footerContent}>
                 <div className={styles.footerLogo}>
-                    <img src={logo} />
+                    <img src={logo} alt="logo" />
                     <p style={{marginTop: '30px'}} className={styles.footerPara}>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
                 </div>
                 <div className={styles.footerTextContainer}>
